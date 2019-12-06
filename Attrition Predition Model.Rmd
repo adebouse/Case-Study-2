@@ -1,9 +1,26 @@
 ---
-title: "Talent Attrition Prediction"
+title: "Case Study 02 DDS"
 author: "Antonio Debouse"
 date: "11/20/2019"
 output: html_document
 ---
+
+#Case Study 02 - Final Project
+
+Youtube Video Presenation at: https://youtu.be/g9Bf-9vVnF4
+
+CaseStudy 2 Github Repository website: https://github.com/adebouse/Case-Study-2.git
+
+Github website: adebouse.github.io
+
+
+Introduction:
+
+As a representative of DDS Analytics, I will focus my analysis on identifying varaibles a company can focus on to improve employee development and increase retention rates. Analyzing the frequencies of categorical variables and the medians of continuous variables for specific job titles we hope to identify key predictors that identify employees who are likely to remain and those who will leave/be fired. 
+
+Summary:
+
+We discovered that Overtime, Stock Option and Job Level had a strong correlation with predicting Attrition, and it was possible that those job position with turnover rates higher than the overall company could be due high levels of retirement. 
 
 
 
@@ -24,7 +41,7 @@ library(scales)
 
 #Import CaseStudy2 dataset
 
-CaseStudy2 <- read.csv(file.choose())
+CaseStudy2 <- read.csv("C:/Users/Antonio Debouse/Desktop/Doing Data Science/GitHub/Case-Study-2/CaseStudy2-data.csv")
  
 
 #Check for missing data
@@ -808,7 +825,7 @@ Availability: https://gist.github.com/stephenturner/3492773
 
 
 #Import dataset without Attrition
-CaseStudyCompSet_NO_Attrition <- read.csv(file.choose())
+CaseStudyCompSet_NO_Attrition <- read.csv("C:/Users/Antonio Debouse/Desktop/Doing Data Science/GitHub/Case-Study-2/CaseStudy2CompSet No Attrition.csv")
 str(CaseStudyCompSet_NO_Attrition)
 
 #Change character variables to factors
@@ -887,7 +904,7 @@ library(reshape2)
 library(readxl)
 
 #Import Dataset without Salary
-CaseStudy2CompSet_NO_Salary <- read_excel(file.choose())
+CaseStudy2CompSet_NO_Salary <- read_excel("C:/Users/Antonio Debouse/Desktop/Doing Data Science/GitHub/Case-Study-2/CaseStudy2CompSet No Salary.xlsx")
 view(CaseStudy2CompSet_NO_Salary)
 str(CaseStudy2CompSet_NO_Salary)
 
