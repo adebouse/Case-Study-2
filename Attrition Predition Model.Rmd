@@ -6,19 +6,6 @@ output: html_document
 ---
 
 
-Citation #1 for Correlation matrix of p-values:
-
-Title: correlation matricies: getting p-values?
-Author: Bill Venables, Statistician, CMIS Environmetrics Project
-Date: Tue Jan 4 06:05:39 CET 2000
-Availability: <https://stat.ethz.ch/pipermail/r-help/2000-January/009758.html>
-
-Citation #2 for FlattenSquareMatrix Function:
-
-Title: Exploring correlations with R using cor.prob and chart.Correlation
-Author: Stephen Turner
-Date: August 27, 2012
-Availability: https://gist.github.com/stephenturner/3492773
 
 ```{r}
 library(readr)
@@ -953,5 +940,3 @@ write.table(ID_SalaryPreds_Dataframe,"Case2PredictionsDebouseSalary.csv",sep = "
 
 
 
-
-```
